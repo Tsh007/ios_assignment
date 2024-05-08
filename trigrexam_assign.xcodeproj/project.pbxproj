@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D10CDD02BEBC6F600D9B047 /* trigrexam_assignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10CDCF2BEBC6F600D9B047 /* trigrexam_assignApp.swift */; };
+		8D10CDD22BEBC6F600D9B047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10CDD12BEBC6F600D9B047 /* ContentView.swift */; };
+		8D10CDD42BEBC6F700D9B047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D10CDD32BEBC6F700D9B047 /* Assets.xcassets */; };
+		8D10CDD72BEBC6F700D9B047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D10CDD62BEBC6F700D9B047 /* Preview Assets.xcassets */; };
+		8D10CDE02BEBCA0700D9B047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10CDDF2BEBCA0700D9B047 /* HomeView.swift */; };
+		8D10CDE22BEBD0D000D9B047 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10CDE12BEBD0D000D9B047 /* HorizontalListView.swift */; };
+		8D10CDE42BEBD44500D9B047 /* UpperTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10CDE32BEBD44500D9B047 /* UpperTabView.swift */; };
+		8D10CDE62BEBE16000D9B047 /* VirticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10CDE52BEBE16000D9B047 /* VirticleListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D10CDCC2BEBC6F600D9B047 /* trigrexam_assign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trigrexam_assign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D10CDCF2BEBC6F600D9B047 /* trigrexam_assignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trigrexam_assignApp.swift; sourceTree = "<group>"; };
+		8D10CDD12BEBC6F600D9B047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D10CDD32BEBC6F700D9B047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D10CDD62BEBC6F700D9B047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D10CDDF2BEBCA0700D9B047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D10CDE12BEBD0D000D9B047 /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
+		8D10CDE32BEBD44500D9B047 /* UpperTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTabView.swift; sourceTree = "<group>"; };
+		8D10CDE52BEBE16000D9B047 /* VirticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirticleListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D10CDC92BEBC6F600D9B047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D10CDC32BEBC6F600D9B047 = {
+			isa = PBXGroup;
+			children = (
+				8D10CDCE2BEBC6F600D9B047 /* trigrexam_assign */,
+				8D10CDCD2BEBC6F600D9B047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D10CDCD2BEBC6F600D9B047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D10CDCC2BEBC6F600D9B047 /* trigrexam_assign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D10CDCE2BEBC6F600D9B047 /* trigrexam_assign */ = {
+			isa = PBXGroup;
+			children = (
+				8D10CDCF2BEBC6F600D9B047 /* trigrexam_assignApp.swift */,
+				8D10CDD12BEBC6F600D9B047 /* ContentView.swift */,
+				8D10CDDF2BEBCA0700D9B047 /* HomeView.swift */,
+				8D10CDE12BEBD0D000D9B047 /* HorizontalListView.swift */,
+				8D10CDE32BEBD44500D9B047 /* UpperTabView.swift */,
+				8D10CDE52BEBE16000D9B047 /* VirticleListView.swift */,
+				8D10CDD32BEBC6F700D9B047 /* Assets.xcassets */,
+				8D10CDD52BEBC6F700D9B047 /* Preview Content */,
+			);
+			path = trigrexam_assign;
+			sourceTree = "<group>";
+		};
+		8D10CDD52BEBC6F700D9B047 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D10CDD62BEBC6F700D9B047 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D10CDCB2BEBC6F600D9B047 /* trigrexam_assign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D10CDDA2BEBC6F700D9B047 /* Build configuration list for PBXNativeTarget "trigrexam_assign" */;
+			buildPhases = (
+				8D10CDC82BEBC6F600D9B047 /* Sources */,
+				8D10CDC92BEBC6F600D9B047 /* Frameworks */,
+				8D10CDCA2BEBC6F600D9B047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trigrexam_assign;
+			productName = trigrexam_assign;
+			productReference = 8D10CDCC2BEBC6F600D9B047 /* trigrexam_assign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D10CDC42BEBC6F600D9B047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8D10CDCB2BEBC6F600D9B047 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8D10CDC72BEBC6F600D9B047 /* Build configuration list for PBXProject "trigrexam_assign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D10CDC32BEBC6F600D9B047;
+			productRefGroup = 8D10CDCD2BEBC6F600D9B047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D10CDCB2BEBC6F600D9B047 /* trigrexam_assign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D10CDCA2BEBC6F600D9B047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D10CDD72BEBC6F700D9B047 /* Preview Assets.xcassets in Resources */,
+				8D10CDD42BEBC6F700D9B047 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D10CDC82BEBC6F600D9B047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D10CDE22BEBD0D000D9B047 /* HorizontalListView.swift in Sources */,
+				8D10CDE02BEBCA0700D9B047 /* HomeView.swift in Sources */,
+				8D10CDE62BEBE16000D9B047 /* VirticleListView.swift in Sources */,
+				8D10CDD22BEBC6F600D9B047 /* ContentView.swift in Sources */,
+				8D10CDE42BEBD44500D9B047 /* UpperTabView.swift in Sources */,
+				8D10CDD02BEBC6F600D9B047 /* trigrexam_assignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D10CDD82BEBC6F700D9B047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D10CDD92BEBC6F700D9B047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D10CDDB2BEBC6F700D9B047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trigrexam_assign/Preview Content\"";
+				DEVELOPMENT_TEAM = NPDAJ7DPSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.tejashsingh.trigrexam-assign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D10CDDC2BEBC6F700D9B047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trigrexam_assign/Preview Content\"";
+				DEVELOPMENT_TEAM = NPDAJ7DPSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.tejashsingh.trigrexam-assign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D10CDC72BEBC6F600D9B047 /* Build configuration list for PBXProject "trigrexam_assign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D10CDD82BEBC6F700D9B047 /* Debug */,
+				8D10CDD92BEBC6F700D9B047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D10CDDA2BEBC6F700D9B047 /* Build configuration list for PBXNativeTarget "trigrexam_assign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D10CDDB2BEBC6F700D9B047 /* Debug */,
+				8D10CDDC2BEBC6F700D9B047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D10CDC42BEBC6F600D9B047 /* Project object */;
+}
